@@ -1,6 +1,8 @@
 # lsb_aes_tool
 rebuild -b lsb_aes_tool
+
 checkwork:
+
 1.tạo file chứa thông tin cần giấu(sudo nano secret.txt)
 
 2.mã hóa aes(openssl enc -aes-256-cbc -salt -in secret.txt -out secret.enc -pass pass:yourpassword)
